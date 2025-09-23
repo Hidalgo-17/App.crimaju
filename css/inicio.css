@@ -558,4 +558,5 @@ footer{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: aparecer 1.5s ease-out forwards;
     opacity: 0;
+    
 }  
