@@ -397,21 +397,7 @@ main{
     opacity: 0;
     width: 80%;
 }
-
-.servicio {
-    background-color: rgb(52, 166, 170);
-    color: #000;
-    padding: 20px;
-    border-radius: 30px;
-    margin: 10px;
-    width: 80%;
-    height: 80%;  
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: aparecer 1.5s ease-out forwards;
-    opacity: 0;
-
-}  
+ 
 
 header{ 
     text-align: center;
