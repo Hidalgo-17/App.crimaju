@@ -1,0 +1,606 @@
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+}
+.menu-boton:hover{
+    background-color: rgb(49, 173, 86);
+    color: black;
+    border: 2px solid #ddd ;
+    transition: backgroud-color 0.3s;
+    color: black;
+    text-align: center;
+}
+.menu-boton{
+    background-color: rgb(52, 166, 170);
+    color: beige;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid rgb(40, 126, 129);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.25s;
+}
+.titulo{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+    background-color: rgb(52, 166, 170);
+    border-radius: 20px;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 100%;
+}
+
+@keyframes aparecer {
+    0%{
+        opacity:  0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
+header{ 
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+.texto{
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    border-radius: 80%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(238, 254, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+.opcion {
+    background-color: rgb(52, 166, 170);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    color: beige;
+    padding: 10px 20px;
+    border: 2px solid rgb(40, 126, 129);
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.25s;
+}  
+
+.opcion:hover{
+    background-color: rgb(49, 173, 86);
+    color: black;
+    border: 2px solid #ddd ;
+    transition: backgroud-color 0.3s;
+    color: black;
+    text-align: center;
+}
+
+.opcion img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+}
+
+header{ 
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.img{
+  clip-path: circle(50%);
+  width: 300px;
+  margin-top: 1%;
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: aparecer 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+h2{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    border-radius: 80%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(238, 254, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.Presentación {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+.conocenos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%
+}
+
+.objetivos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%
+}
+
+.emprendedores {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%
+}
+.foto{
+    width: 70%;
+    height: 70%;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.emprendedores-texto{
+    color: #000;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    grid-column: span 2 / span 2;
+}
+
+.emprendedores-titulo{
+    color: #000;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    grid-column: span 1 / span 1;
+}
+
+header{ 
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.img{
+  clip-path: circle(50%);
+  width: 300px;
+  margin-top: 1%;
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: aparecer 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+h2{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    border-radius: 80%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(238, 254, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Presentación {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+.conocenos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%
+}
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr); 
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+.servicio {
+    background-color: rgb(52, 166, 170);
+    color: #000;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 80%;
+    height: 80%;  
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+
+}  
+
+header{ 
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.img{
+  clip-path: circle(50%);
+  width: 300px;
+  margin-top: 1%;
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: aparecer 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+h2{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    border-radius: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(238, 254, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+
+.testimonio {
+    background-color: rgb(52, 166, 170);
+    color: #000;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+}  
+
+header{ 
+    text-align: center;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+}
+
+.img{
+  clip-path: circle(50%);
+  width: 300px;
+  margin-top: 1%;
+  position: relative;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: aparecer 1.5s ease-out forwards;
+  opacity: 0;
+}
+
+h2{
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    text-size-adjust: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 130%;
+    border-radius: 80%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(238, 254, 255);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    margin: 2% 5% 2% 5%;
+    padding: 20px;
+    background-color: rgb(216, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    width: 80%;
+}
+
+.contactanos{
+    color: #000;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+}  
+h2{
+    font-size: 40px;
+    margin: 0;
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+}   
+#contactos{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    color: #000;
+    grid-column-start: 5;
+    background-color: rgb(52, 166, 170);
+}
+
+#formulario {
+    background-color: rgb(52, 166, 170);
+    color: #000;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: aparecer 1.5s ease-out forwards;
+    opacity: 0;
+    grid-column: span 4 / span 4;
+}
+
