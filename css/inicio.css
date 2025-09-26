@@ -490,9 +490,6 @@ body {
   font-family: 'Ropa Sans', sans-serif;
 }
 
-
-
-Resources
 .parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
