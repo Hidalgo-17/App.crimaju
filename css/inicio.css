@@ -434,9 +434,9 @@ main{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 6px;
+    gap: 8px;
     justify-items: center;
-    align-items: center;
+    align-items: stretch;
     margin: 2% 5% 2% 5%;
     padding: 20px;
     background-color: rgb(216, 252, 255);
