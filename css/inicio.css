@@ -69,6 +69,9 @@ h2{
     margin-right: auto;
     align-items: center;
 }
+.identificar{ 
+    width: 100%;
+}
 
 body{
     background-color: rgb(238, 254, 255);
