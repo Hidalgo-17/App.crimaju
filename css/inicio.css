@@ -608,3 +608,18 @@ h2{
                 right: 2.5%; /* Centrado visualmente */
             }
         }
+
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'crimaju-primary': '#4f46e5', // Indigo color for branding
+                        'crimaju-light': '#818cf8',
+                        'crimaju-dark': '#3730a3',
+                    }
+                }
+            }
+        }
