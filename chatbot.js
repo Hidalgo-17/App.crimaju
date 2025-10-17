@@ -59,6 +59,7 @@ const baseConocimiento = {
             return texto.trim().replace(/\s+/g, ' ');
         }
 
+        
         /**
          * Tokeniza el texto (simplemente lo divide por espacios).
          * @param {string} texto 
